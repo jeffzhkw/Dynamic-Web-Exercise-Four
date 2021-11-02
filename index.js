@@ -2,9 +2,6 @@ const express = require("express");
 const app = express();
 
 port = process.env.PORT || 4000;
-// app.get("/", (req, res) => {
-//   res.send(`<p>hello world</p>`);
-// });
 
 const indexRouter = require("./routes/index");
 const articleRouter = require("./routes/article");

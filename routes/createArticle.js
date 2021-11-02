@@ -10,7 +10,6 @@ router.get("/", (req, res) => {
   <div>
   <label for="articleTitle">Article Title</label>
   <input type="text" name="articleTitle" placeholder="type article title...">
-  
   </div>
   <button type="submit"> Submit Article</button>
   </form>`);
